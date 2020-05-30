@@ -1,0 +1,128 @@
+{
+  "001": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "....",
+    "answers": {
+      "001": {
+        "text": "....",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "...",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "..",
+        "lead_to": "002"
+      },
+      "004": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "...",
+    "answers": {
+      "001": {
+        "text": "...",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "hoy",
+        "lead_to": "003"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "shhhh...",
+    "answers": {
+      "001": {
+        "text": "what youre doing?",
+        "lead_to": "005"
+      },
+      "002": {
+        "text": "who are you?",
+        "lead_to": "006"
+      },
+      "003": {
+        "text": "...",
+        "lead_to" : "002"
+      },
+      "004": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "...",
+    "answers": {
+      "001": {
+        "text": "....",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "hoy",
+        "lead_to": "003"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "005": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "something",
+    "answers": {
+      "001": {
+        "text": "what??",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "..",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "006": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "someone",
+    "answers": {
+      "001": {
+        "text": "whoo??",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "..",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "007": {
+    "portrait": "res://Chars/OneGuy/oneguyfoshure.png",
+    "speech": "*STARTS CRYING INTENSELY*",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  }
+}
