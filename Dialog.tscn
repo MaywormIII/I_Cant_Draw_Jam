@@ -1,0 +1,204 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://BroghtBack-1.png.png" type="Texture" id=1]
+[ext_resource path="res://Chars/Forno/Forno.png" type="Texture" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Dialog.gd" type="Script" id=4]
+
+[node name="Dialog" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="."]
+anchor_left = 0.0136719
+anchor_top = 0.0216667
+anchor_right = 0.985352
+anchor_bottom = 0.976667
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Panel" type="Panel" parent="Control"]
+margin_right = 181.0
+margin_bottom = 196.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerPortrait" type="TextureRect" parent="Control/Panel/VBoxContainer"]
+margin_right = 181.0
+margin_bottom = 178.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 1 )
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerName" type="Label" parent="Control/Panel/VBoxContainer"]
+margin_top = 182.0
+margin_right = 181.0
+margin_bottom = 196.0
+text = "PLAYER NAME"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="Control"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -181.0
+margin_bottom = 196.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Control/Panel2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NPCPortrait" type="TextureRect" parent="Control/Panel2/VBoxContainer2"]
+margin_right = 181.0
+margin_bottom = 178.0
+size_flags_vertical = 3
+texture = ExtResource( 2 )
+stretch_mode = 6
+
+[node name="NPCName" type="Label" parent="Control/Panel2/VBoxContainer2"]
+margin_top = 182.0
+margin_right = 181.0
+margin_bottom = 196.0
+text = "NPC NAME"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Control"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -250.0
+texture = ExtResource( 3 )
+patch_margin_left = 20
+patch_margin_top = 20
+patch_margin_right = 20
+patch_margin_bottom = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextOrganizer" type="VBoxContainer" parent="Control/NinePatchRect"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -477.5
+margin_top = -105.0
+margin_right = 477.5
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="speech" type="Label" parent="Control/NinePatchRect/TextOrganizer"]
+margin_right = 955.0
+margin_bottom = 48.0
+text = "if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\": if area.get_name() == \"Forno\":"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Control/NinePatchRect/TextOrganizer"]
+margin_top = 52.0
+margin_right = 955.0
+margin_bottom = 205.0
+size_flags_vertical = 3
+
+[node name="Answers" type="VBoxContainer" parent="Control/NinePatchRect/TextOrganizer/Panel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -477.5
+margin_top = -73.5
+margin_right = 477.5
+margin_bottom = 73.5
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button1" type="Button" parent="Control/NinePatchRect/TextOrganizer/Panel/Answers"]
+margin_right = 955.0
+margin_bottom = 33.0
+size_flags_vertical = 3
+text = "1 - caramba em"
+flat = true
+
+[node name="Button2" type="Button" parent="Control/NinePatchRect/TextOrganizer/Panel/Answers"]
+margin_top = 37.0
+margin_right = 955.0
+margin_bottom = 70.0
+size_flags_vertical = 3
+text = "1 - caramba em"
+flat = true
+
+[node name="Button3" type="Button" parent="Control/NinePatchRect/TextOrganizer/Panel/Answers"]
+margin_top = 74.0
+margin_right = 955.0
+margin_bottom = 107.0
+size_flags_vertical = 3
+text = "1 - caramba em"
+flat = true
+
+[node name="Button4" type="Button" parent="Control/NinePatchRect/TextOrganizer/Panel/Answers"]
+margin_top = 111.0
+margin_right = 955.0
+margin_bottom = 147.0
+size_flags_vertical = 3
+text = "1 - caramba em"
+flat = true
+
+[node name="Button5" type="Button" parent="Control/NinePatchRect/TextOrganizer/Panel/Answers"]
+visible = false
+margin_top = 120.0
+margin_right = 955.0
+margin_bottom = 147.0
+size_flags_vertical = 3
+text = "1 - caramba em"
+flat = true
+
+[node name="Button6" type="Button" parent="Control/NinePatchRect/TextOrganizer/Panel/Answers"]
+visible = false
+margin_top = 125.0
+margin_right = 955.0
+margin_bottom = 149.0
+size_flags_vertical = 3
+text = "1 - caramba em"
+flat = true
+[connection signal="pressed" from="Control/NinePatchRect/TextOrganizer/Panel/Answers/Button1" to="." method="_on_Button1_pressed"]
+[connection signal="pressed" from="Control/NinePatchRect/TextOrganizer/Panel/Answers/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Control/NinePatchRect/TextOrganizer/Panel/Answers/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Control/NinePatchRect/TextOrganizer/Panel/Answers/Button4" to="." method="_on_Button4_pressed"]
+[connection signal="pressed" from="Control/NinePatchRect/TextOrganizer/Panel/Answers/Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="Control/NinePatchRect/TextOrganizer/Panel/Answers/Button6" to="." method="_on_Button6_pressed"]

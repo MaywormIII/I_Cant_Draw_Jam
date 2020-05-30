@@ -1,0 +1,19 @@
+[gd_resource type="SpatialMaterial" load_steps=3 format=2]
+
+[sub_resource type="OpenSimplexNoise" id=1]
+seed = 2
+period = 41.0
+persistence = 0.0
+lacunarity = 0.25
+
+[sub_resource type="NoiseTexture" id=2]
+flags = 34
+noise = SubResource( 1 )
+
+[resource]
+flags_unshaded = true
+flags_world_triplanar = true
+albedo_color = Color( 0.811765, 0.756863, 0.733333, 1 )
+albedo_texture = SubResource( 2 )
+uv1_triplanar = true
+uv2_offset = Vector3( 1, 1, 1 )

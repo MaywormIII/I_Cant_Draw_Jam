@@ -1,0 +1,58 @@
+{
+  "001": {
+    "portrait": "res://Chars/Forno/Forno.png",
+    "speech": "Greetings, my sickly stripling",
+    "answers": {
+      "001": {
+        "text": "greetings",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/Forno/Forno.png",
+    "speech": "My birth name has been Forno",
+    "answers": {
+      "001": {
+        "text": "mine has been bakurobuku",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "since when?",
+        "lead_to": "004"
+      },
+      "003": {
+        "text": "bye forno",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/Forno/Forno.png",
+    "speech": "Nice to meet you bakurobuku",
+    "answers": {
+      "001": {
+        "text": "since when your birth name has been forno?",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "bye forno",
+        "lead_to": "end"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/Forno/Forno.png",
+    "speech": "Since my birth",
+    "answers": {
+      "001": {
+        "text": "bye forno",
+        "lead_to": "end"
+      }
+    }
+  }
+}

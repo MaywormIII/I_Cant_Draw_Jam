@@ -1,0 +1,96 @@
+{
+  "001": {
+    "portrait": "res://Chars/Igfzi/kwin-1.png",
+    "speech": "I don't like this warmness",
+    "answers": {
+      "001": {
+        "text": "....",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/Igfzi/kwin-1.png",
+    "speech": "I preferred when it was all yellow",
+    "answers": {
+      "001": {
+        "text": "when was it?",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/Igfzi/kwin-1.png",
+    "speech": "At my Regime",
+    "answers": {
+      "001": {
+        "text": "where you the king?",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/Igfzi/kwin-1.png",
+    "speech": "I was THE queen",
+    "answers": {
+      "001": {
+        "text": "....",
+        "lead_to": "005"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "005": {
+    "portrait": "res://Chars/Igfzi/kwin-1.png",
+    "speech": "My child took my crown while I was asleep",
+    "answers": {
+      "001": {
+        "text": "....",
+        "lead_to": "006"
+      },
+      "002": {
+        "text": "youre dumb",
+        "lead_to": "007"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "006": {
+    "portrait": "res://Chars/Igfzi/kwin-1.png",
+    "speech": "After all the royal breast feeding... *sigh*",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "007": {
+    "portrait": "res://Chars/Igfzi/kwin_cry.png",
+    "speech": "*STARTS CRYING INTENSELY*",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  }
+}
