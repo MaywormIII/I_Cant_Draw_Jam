@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://BroghtBack/sprite_2.png" type="Texture" id=1]
 [ext_resource path="res://player.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://BroghtBack/sprite_3.png" type="Texture" id=4]
 [ext_resource path="res://BroghtBack/sprite_1.png" type="Texture" id=5]
 [ext_resource path="res://BroghtBack/sprite_0.png" type="Texture" id=6]
+[ext_resource path="res://sprites/eclamation.png" type="Texture" id=7]
 
 [sub_resource type="PlaneMesh" id=1]
 
@@ -32,6 +33,13 @@ extents = Vector3( 1, 1, 0.150775 )
 [sub_resource type="BoxShape" id=5]
 extents = Vector3( 1.7502, 0.444909, 0.73516 )
 
+[sub_resource type="PlaneMesh" id=6]
+
+[sub_resource type="SpatialMaterial" id=7]
+flags_transparent = true
+flags_unshaded = true
+albedo_texture = ExtResource( 7 )
+
 [node name="player" type="KinematicBody"]
 script = ExtResource( 2 )
 
@@ -51,8 +59,14 @@ shape = SubResource( 5 )
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 2.98023e-08, 0, -2.98023e-08, 1, 0, 1, 7 )
+fov = 75.0
 
 [node name="Dialog" parent="." instance=ExtResource( 3 )]
 visible = false
+
+[node name="exclamation" type="MeshInstance" parent="."]
+transform = Transform( 0.24, 0, 0, 0, -1.74846e-08, -0.48, 0, 1, -5.24537e-08, 0.0846881, 1.70635, 0 )
+mesh = SubResource( 6 )
+material/0 = SubResource( 7 )
 [connection signal="area_entered" from="Range" to="." method="_on_Range_area_entered"]
 [connection signal="area_exited" from="Range" to="." method="_on_Range_area_exited"]

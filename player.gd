@@ -14,6 +14,7 @@ var player_name
 onready var area = $Range
 onready var mesh = $MeshInstance
 onready var dialog_screen = $Dialog
+onready var exclamation = $exclamation
 
 var mat
 var texture
@@ -57,8 +58,12 @@ func _physics_process(delta):
 
 func _process(delta):
 
-	if Input.is_action_just_pressed("ui_select") && target != null:
-		interact()
+	if target != null && dialog_screen.visible == false:
+		exclamation.show()
+		if Input.is_action_just_pressed("ui_select"):
+			interact()
+	else:
+		exclamation.hide()
 
 	if area.get_overlapping_areas() == []:
 		target = null
