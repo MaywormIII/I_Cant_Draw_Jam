@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RodaPe.png-d451816abb5680d9b695a60ffc57d33d.stex"
+path="res://.import/yellowtile.png-716cbf6d9b04d9d8013c7e450b2e80bc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/RodaPe.png"
-dest_files=[ "res://.import/RodaPe.png-d451816abb5680d9b695a60ffc57d33d.stex" ]
+source_file="res://sprites/yellowtile.png"
+dest_files=[ "res://.import/yellowtile.png-716cbf6d9b04d9d8013c7e450b2e80bc.stex" ]
 
 [params]
 

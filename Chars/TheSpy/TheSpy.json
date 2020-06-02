@@ -1,0 +1,100 @@
+{
+  "001": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "i'm just looking for my cat",
+    "answers": {
+      "001": {
+        "text": "good luck finding your cat",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "i havent seen your cat",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "i have seen your cat",
+        "lead_to": "003"
+      },
+      "004": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "It must be somewhere around here",
+    "answers": {
+      "001": {
+        "text": "do you need help looking for your cat?",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "Really?? No way",
+    "answers": {
+      "001": {
+        "text": "yeah, that was a lie",
+        "lead_to": "005"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "No, i'm fine, I'm sure it will appear anytime soon",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "005": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "Please don't lie to me anymore",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "006": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "someone",
+    "answers": {
+      "001": {
+        "text": "whoo??",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "..",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "007": {
+    "portrait": "res://Chars/TheSpy/thespy.png",
+    "speech": "*STARTS CRYING INTENSELY*",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  }
+}

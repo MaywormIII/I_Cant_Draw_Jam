@@ -78,6 +78,7 @@ margin_right = 181.0
 margin_bottom = 178.0
 size_flags_vertical = 3
 texture = ExtResource( 2 )
+expand = true
 stretch_mode = 6
 
 [node name="NPCName" type="Label" parent="Control/Panel2/VBoxContainer2"]

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RodaPe.png-d451816abb5680d9b695a60ffc57d33d.stex"
+path="res://.import/poorhousepatern.png-8201a03ecd5a250d70d2688c78d24fba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/RodaPe.png"
-dest_files=[ "res://.import/RodaPe.png-d451816abb5680d9b695a60ffc57d33d.stex" ]
+source_file="res://sprites/poorhousepatern.png"
+dest_files=[ "res://.import/poorhousepatern.png-8201a03ecd5a250d70d2688c78d24fba.stex" ]
 
 [params]
 

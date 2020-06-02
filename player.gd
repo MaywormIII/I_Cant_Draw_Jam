@@ -46,15 +46,17 @@ func _physics_process(delta):
 	dir = dir.normalized()
 
 	vel = dir * MOVE_SPEED * delta
-	vel.y -= GRAV * delta
-
-	if dir.x != 0 || dir.z != 0:
-		texture.set_fps(10)
-	else:
-		texture.set_fps(0)
+	if !is_on_floor():
+		vel.y -= GRAV * delta
 
 	if dialog_screen.visible == false:
-		move_and_slide(vel,Vector3.UP)
+		move_and_slide(vel,Vector3.UP,true)
+		
+	if dir.x != 0 || dir.z != 0:
+		texture.set_fps(10)
+		print(get_floor_velocity())
+	else:
+		texture.set_fps(0)
 
 func _process(delta):
 

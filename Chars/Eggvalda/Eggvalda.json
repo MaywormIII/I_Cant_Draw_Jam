@@ -1,0 +1,92 @@
+{
+  "001": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "You are weird",
+    "answers": {
+      "001": {
+        "text": "yure gay",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "thanks",
+        "lead_to": "003"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "Fock U",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "I mean it",
+    "answers": {
+      "001": {
+        "text": "Ok",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "You are annoying me",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "005": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "Please don't lie to me anymore",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "006": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "someone",
+    "answers": {
+      "001": {
+        "text": "whoo??",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "..",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "007": {
+    "portrait": "res://Chars/Eggvalda/Eggvalda.png",
+    "speech": "*STARTS CRYING INTENSELY*",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "001": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "Hail me",
+    "answers": {
+      "001": {
+        "text": "who are you?",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "hail",
+        "lead_to": "003"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "I'm your saviour",
+    "answers": {
+      "001" : {
+        "text": "i bet you are",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "You are a good fellow",
+    "answers": {
+      "001": {
+        "text": "thanks",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "Be my guest",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "005": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "Please don't lie to me anymore",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "006": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "someone",
+    "answers": {
+      "001": {
+        "text": "whoo??",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "..",
+        "lead_to": "002"
+      },
+      "003": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "007": {
+    "portrait": "res://Chars/Rodrigo Nino/JONILSON.png",
+    "speech": "*STARTS CRYING INTENSELY*",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  }
+}

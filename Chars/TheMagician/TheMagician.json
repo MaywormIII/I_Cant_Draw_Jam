@@ -1,0 +1,68 @@
+{
+  "001": {
+    "portrait": "res://Chars/TheMagician/TheMagician.png",
+    "speech": "So, you are back",
+    "answers": {
+      "001": {
+        "text": "who are you?",
+        "lead_to": "002"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "002": {
+    "portrait": "res://Chars/TheMagician/TheMagician.png",
+    "speech": "Oh. You forgot me again",
+    "answers": {
+      "001": {
+        "text": "i fear so",
+        "lead_to": "003"
+      },
+      "002": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "003": {
+    "portrait": "res://Chars/TheMagician/TheMagician.png",
+    "speech": "I am your past and present. You know inside who I am",
+    "answers": {
+      "001": {
+        "text": "You are my Father",
+        "lead_to": "004"
+      },
+      "002": {
+        "text": "You are my Mother",
+        "lead_to": "004"
+      },
+      "003": {
+        "text": "You are Both",
+        "lead_to": "005"
+      }
+    }
+  },
+  "004": {
+    "portrait": "res://Chars/TheMagician/TheMagician.png",
+    "speech": "Yes... I am",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  },
+  "005": {
+    "portrait": "res://Chars/TheMagician/TheMagician.png",
+    "speech": "Yes, I am your Both",
+    "answers": {
+      "001": {
+        "text": "bye",
+        "lead_to": "end"
+      }
+    }
+  }
+}

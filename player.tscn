@@ -58,8 +58,9 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.529045, 0 )
 shape = SubResource( 5 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 2.98023e-08, 0, -2.98023e-08, 1, 0, 1, 7 )
-fov = 75.0
+transform = Transform( 1, 0, 0, 0, 0.997813, -0.0660998, 0, 0.0660998, 0.997813, 0, 4.056, 6.79 )
+fov = 100.0
+far = 500.0
 
 [node name="Dialog" parent="." instance=ExtResource( 3 )]
 visible = false
