@@ -20,6 +20,7 @@ var mat
 var texture
 
 func _ready():
+	
 	player_name = "Bakurobuku"
 	
 	mat = mesh.get_surface_material(0)
@@ -54,7 +55,6 @@ func _physics_process(delta):
 		
 	if dir.x != 0 || dir.z != 0:
 		texture.set_fps(10)
-		print(get_floor_velocity())
 	else:
 		texture.set_fps(0)
 

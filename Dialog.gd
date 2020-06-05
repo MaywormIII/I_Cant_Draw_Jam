@@ -35,13 +35,16 @@ func set_text():
 func set_index(_index):
 	index = _index
 
+func set_current_dialogue():
+	set_npc_portrait()
+	set_text()
+	set_buttons()
+
 func start_dialogue(_target):
 	data = load_json(_target.get_dialogue_path())
 	index = _target.get_initial_index()
 	set_npc_name(_target.get_name())
-	set_npc_portrait()
-	set_text()
-	set_buttons()
+	set_current_dialogue()
 
 func advance_dialogue(answer):
 	print(data[index]["answers"][answer])
@@ -49,9 +52,7 @@ func advance_dialogue(answer):
 		
 	if data[index]["answers"][answer]["lead_to"] != "end":
 		set_index(data[index]["answers"][answer]["lead_to"])
-		set_npc_portrait()
-		set_text()
-		set_buttons()
+		set_current_dialogue()
 	else:
 		end_dialogue()
 
